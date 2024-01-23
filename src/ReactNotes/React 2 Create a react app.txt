@@ -1,0 +1,108 @@
+
+chapter 2: create a react app
+
+7. setup ide
+a. what is ide?
+integrated development enviroment. software suite consolidates basic tools required for software development. find problems and testing. desined to improve developer efficieny
+
+b. need fo ide.
+streamlines development. increases productivity. simplifies complex tasks. offers a unified workspace. ide reatures; code autocmplete, syntax highlight, version contro, error checking
+
+c. installation and setup
+i. install lates node
+ii. install vs code 
+iii. some vscode extentions and settings like 
+extentions;
+live server/ livew preview, 
+prittier, 
+line wrap
+
+setting i. formate on save enable
+settings ii. enable line wrap
+settins iii. tab size 2
+
+
+8. create a react app
+two way to create react app
+
+first way is offical tool is CRA create react app
+use npm start for cra
+
+second way with vite
+vite is a modern tool to create react project. vite produces quick and small bundle size. vite use npm run dev to launch dev server. 
+
+
+for create project with second way
+
+open terminal
+npm create vite@latest or with latest version npm create vite@1.4.1
+
+npm create vite@latest
+Need to install the following packages:
+  create-vite@5.1.0
+Ok to proceed? (y) y
+√ Project name: ... reapp
+√ Select a framework: » React
+√ Select a variant: » JavaScript
+
+Done. Now run:
+
+  cd reapp	: move to the root project dir
+  npm install	: inall the dependencies
+  npm run dev	: start project
+
+
+
+
+
+
+
+
+9. project structure
+a. node_moduels/ has all the installed node packages
+b. public/ directory contains static files that dont chagne like favicone icon.
+c. src/ directory is main folder for the react code. 
+	(src subforders are suggested but not compolsary 
+	i. components isreusable parts of the ui, like buttons or headers.
+	ii. assests: images, fonts, and other staic files
+	iii. styles: css or stylesheets
+d. packages.json containes information about the current project like name, version, dependencies on other reat packages.
+e. vite.config.js contains vite config.
+
+
+.eslintrc.cjs: tells the wrong written code and suggested code give
+.gitignore. it spacify to not push
+index.html: first file have html code rearly change elements file.
+
+on the npm install, create two things
+node_moduels and package-lock.json
+package-lock.json: it tells that what finally used on the update the modules or library and keep the the update current modules and libararies
+
+
+in packages.json
+scripts: conname collection with value that execute the particular value of particular command hit
+dependencies: on what the project depend ( default dependencies react, react-dom
+devDependencies: the dependencies that helps while writing the code but not need to include on the shifting the project
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

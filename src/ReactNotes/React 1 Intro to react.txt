@@ -1,0 +1,24 @@
+
+chapter 1: Intro to react
+1. what is react? 
+js lib for dynamic and interactive ui. developed at fb in 11. widely used js lib for frontend development. used to create single page application
+
+2. working with of DOM
+browser takes html and create dom. js helps to modify dom based on user actions or events. big applications working with dom becomes complicated
+
+3. problems with js
+react as a simpler mental model. js is cumbersome. js is error-prone. hs is hard to maintain
+
+4. working of react
+no need to worry about querying and updating dom. react creates a web page with small and reusable components. it saves a lot of time.
+
+5. js vs react
+js is imperative; need to define each steps for desire state.
+react is declarative; define target ui state, configures to to reach state.
+
+6. intro to components
+components help us write reusable, modular and better orgnized code. react application is a tree of componenets with app component as the root bringing everything together.
+
+example; facebook, netflix
+
+

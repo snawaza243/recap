@@ -1,0 +1,22 @@
+React 3 Creating React Components 
+1:8:9
+
+10. file extentsions
+
+
+11. class vs function components
+
+
+12. what is jsx?
+
+
+13. exporting compoent
+
+
+14. other imporntant points
+
+
+15. dynamix components
+
+
+16. reusable components
